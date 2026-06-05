@@ -4,7 +4,7 @@ import { Layout, Menu, theme, Avatar, Dropdown, Breadcrumb, Tabs } from 'antd'
 import type { MenuProps } from 'antd'
 import {
   DashboardOutlined, SettingOutlined, ShopOutlined, TeamOutlined,
-  CreditCardOutlined, UserOutlined, UsergroupOutlined, HeartOutlined,
+  CreditCardOutlined, UserOutlined, HeartOutlined,
   AccountBookOutlined, MenuFoldOutlined, MenuUnfoldOutlined,
   LogoutOutlined, ProfileOutlined, LockOutlined,
 } from '@ant-design/icons'
@@ -21,7 +21,7 @@ const iconMap: Record<string, React.ReactNode> = {
   TeamOutlined: <TeamOutlined />,
   CreditCardOutlined: <CreditCardOutlined />,
   UserOutlined: <UserOutlined />,
-  UsergroupOutlined: <UsergroupOutlined />,
+  UsergroupOutlined: <TeamOutlined />,
   HeartOutlined: <HeartOutlined />,
   AccountBookOutlined: <AccountBookOutlined />,
 }
